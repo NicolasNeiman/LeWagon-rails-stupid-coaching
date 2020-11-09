@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="post vertical-line light-grey-bgd">
+    <p class="message"><%= @question %></p>
+    <p class="author">- You</p>
+  </div>
+
+  <div class="post vertical-line yellow-bgd">
+    <p class="message"><%= @answer %></p> 
+    <p class="author">- Your coach</p>
+  </div>
+
+  <%= link_to 'Ask a new question','ask'  %>
+</div>

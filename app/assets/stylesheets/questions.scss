@@ -1,0 +1,46 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (max-width: 3000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.container {
+  margin: 100px auto;
+}
+
+.vertical-line {
+  border-left: 15px solid #e3e3e3;
+}
+
+.yellow-bgd {
+  background-color: #FFFECB;
+}
+
+.light-grey-bgd {
+  background-color: #e1e1e12e;
+}
+
+.post {
+  padding: 8px 30px;
+  margin-bottom: 40px;
+  .author{
+    font-style: italic
+  }
+}
+
